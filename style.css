@@ -1,0 +1,38 @@
+@import url('https://api.fontshare.com/css?f[]=satoshi');
+
+html, body {
+  height: 100vh;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: bold;
+  color: #F8F1F6;
+  letter-spacing: 5px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background: linear-gradient(to right, #A30008, #FF0A3B, #F8F1F6);
+  margin: 0;
+}
+
+.type-wrap {
+  font-size: 50px;
+  padding: 20px;
+}
+
+/* the above is for styling puposes only */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
